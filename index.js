@@ -131,56 +131,85 @@ client.on('messageCreate', function(message){
                 
                 if (message.content[3] == "B") {
                     x += Number(1)
-                    console.log("1 "+x)
+                    console.log("1 "+' acao_resposta_certa')
+                }else{
+                    console.log("1 "+' acao_resposta_errada')
                 }
 
                 if (message.content[5] == "B") {
                     x += Number(1)
-                    console.log("2"+x)
+                    console.log("2"+' acao_resposta_certa')
+                }else{
+                    console.log("2 "+' acao_resposta_errada')
                 }
+
 
                 if (message.content[7] == "1" && message.content[8] == "A" && message.content[10] == "2" && message.content[11] == "C" && message.content[13] == "3" && message.content[14] == "B" && message.content[16] == "4" && message.content[17] == "D") {
                     x += Number(1)
-                    console.log("3"+x)
+                    console.log("3"+' acao_resposta_certa')
+                }else{
+                    console.log("3 "+' acao_resposta_errada')
                 }
+
 
                 if (message.content[19] == "A") {
                     x += Number(1)
-                    console.log("4"+x)
+                    console.log("4"+' acao_resposta_certa')
+                }else{
+                    console.log("4 "+' acao_resposta_errada')
                 }
+
 
                 
                 if (message.content[21] == "B") {
                     x += Number(1)
-                    console.log("5"+x)
+                    console.log("5"+' acao_resposta_certa')
+                }else{
+                    console.log("5 "+' acao_resposta_errada')
                 }
+
 
                 if (message.content[23] == "D") {
                     x += Number(1)
-                    console.log("6"+x)
+                    console.log("6"+' acao_resposta_certa')
+                }else{
+                    console.log("6"+' acao_resposta_errada')
                 }
 
+
                 if (message.content[25] == "B") {
-                    x += Number(1)
-                    console.log("7"+x)
+                    x += Number(1) 
+                    console.log("7"+' acao_resposta_certa')
+                }else{
+                    console.log("7"+' acao_resposta_errada')
                 }
+
 
                 if (message.content[27] == "6") {
                     x += Number(1)
-                    console.log("8"+x)
+                    console.log("8"+' acao_resposta_certa')
+                }else{
+                    console.log("8"+' acao_resposta_errada')
                 }
+
 
                 if (message.content[29] == "E") {
                     x += Number(1)
-                    console.log("9"+x)
+                    console.log("9"+' acao_resposta_certa')
+                }else{
+                    console.log("9"+' acao_resposta_errada')
                 }
+
                
                 if  (message.content[31] == "1" && message.content[32] == "8" && message.content[33] == "9" && message.content[34] == "9" && message.content[35] == "," && message.content[37] == "1" && message.content[38] == "9" && message.content[39] == "0" && message.content[40] == "0" && message.content[41] == "," && message.content[43] == "2" && message.content[44] == "0" && message.content[45] == "0" && message.content[46] == "4" && message.content[47] == "," && message.content[49] == "2" && message.content[50] == "0" && message.content[51] == "0" && message.content[52] == "5") {
 
                     //1899, 1900, 2004, 2005
                     x += Number(1)
-                    console.log("10"+x)
+                    console.log("10"+' acao_resposta_certa')
+                }else{
+                    console.log("10"+' acao_resposta_errada')
                 }
+
                 
                 let porAcerto = (x *100)/10
                 
