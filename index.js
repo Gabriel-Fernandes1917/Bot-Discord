@@ -118,7 +118,12 @@ client.on('messageCreate', function(message){
             message.reply("\n\n9) Qual o número mínimo de casos de testes que uma regra de negócio com 3 condicionais encadeados deve possuir?")
         }
         function comando5() {
-            message.reply("\n\n5 ) Qual das seguintes alternativas não faz parte do teste de sistema?")
+            message.reply('\n\n5 ) Qual das seguintes alternativas não faz parte do teste de sistema?'+
+                'a) Teste baseado nas regras de negócio'+
+               ' b) Teste de desempenho, carga e stress'+
+                'c) Teste baseado em requisitos'+
+                'd) Teste de usabilidade'+
+                'e) Teste de integração ')
         
             
         }
